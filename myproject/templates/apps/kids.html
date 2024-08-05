@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% extends 'apps/index.html' %}
+{% block body_block %}
+{% load static %}
+
+<html>
+<head>
+	<title>ZUDIO</title>
+	<h1 style="color: #3a41fc;text-align: center;"></h1>
+	   <b>FIND THE ZUDIO STORE CLOSEST TO YOU</b>
+
+	<h2 style="color: pink;text-align: center">.......ENJOY THE COLLECTIONS........</h2>
+
+	<h3 style="text-align: center;color:black ">..........To wear and enjoy yourself...............</h3>
+</head>
+	<style>
+	p1{
+		color: red;text-align: 30px;text-align: center;
+		font: family: 'Times New Roman', Times, serif;font-size:xx-large;
+	}
+</style>
+<body style="background-color: lightcyan;">
+	<link rel="stylesheet" href="{% static 'style/style.css' %}">
+   <center>
+   <img src="{% static '/image/kutty.jpg' %}">
+   </center>
+	<p1>T-shirts<hr>jeans<hr>Modern wears<hr>Traditional wears<hr>Night suits<hr></p1>
+
+
+</body>
+{%endblock%}
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends 'apps/index.html' %}
+{% block body_block %}
+<center>
+	<h3>LOGIN PAGE</h3>
+<form method="POST">
+	{{form.as_p}}
+	{%csrf_token%}
+	<button type="submit">Login</button>
+</form>
+<a href="/signup/">REGISTER HERE</a>
+</center>
+{%endblock%}

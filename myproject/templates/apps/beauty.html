@@ -1,0 +1,34 @@
+<html>
+{% extends 'apps/index.html' %}
+{% block body_block %}
+{% load static %}
+
+<head>
+	<title>ZUDIO</title>
+	<h1 style="color: #3a41fc;text-align: center;"></h1>
+	   <b>SHINE WITH YOUR BEAUTY ....</b>
+
+	<h2 style="color: lavenderblush;text-align: center">LIGHT AND GLOW</h2>
+
+	<h3 style="text-align: center;color:black ">..........To shine and win yourself...............</h3>
+
+</head>
+<style>
+	p1{
+		color: red;text-align: 30px;text-align: center;
+		font: family: 'Times New Roman', Times, serif;font-size:xx-large;
+	}
+</style>
+
+<body style="background-color: cadetblue;">
+
+	<center>
+	<img src="{% static '/image/cream.jpg' %}">
+    <img src="{% static '/image/lipcream.jpg' %}">
+    </center>
+
+	<p1>Nail paints<hr>Mascara<hr>Perfumes<hr>Womens Facecream<hr>Mens Facecream<hr>BodyLotion<hr>Body spray</p1>
+
+</body>
+{%endblock%}
+</html>
